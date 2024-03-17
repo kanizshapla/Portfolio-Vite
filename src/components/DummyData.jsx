@@ -28,7 +28,9 @@ const DummyData = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {data.map((item) => (
           <div key={item.id} className="bg-gray-100 p-4 rounded-lg shadow-md">
-            <h2 className="text-lg font-semibold mb-2">{item.title}</h2>
+            <h2 className="text-lg font-semibold mb-2 text-gray-600">
+              {item.title}
+            </h2>
             <p className="text-gray-700">{item.body}</p>
             <div className="mt-2">
               <span className="text-gray-500">User ID: {item.userId}</span>
