@@ -1,8 +1,8 @@
 import React from "react";
-import useApiFetch from "./hooks/useApiFetch";
+import UseApiFetch from "./hooks/UseApiFetch";
 
 const DummyData = () => {
-  const { data, loading, error } = useApiFetch(
+  const { data, loading, error } = UseApiFetch(
     "https://jsonplaceholder.typicode.com/posts"
   );
 
