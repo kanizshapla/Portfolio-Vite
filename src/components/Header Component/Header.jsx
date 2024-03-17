@@ -8,7 +8,7 @@ const Header = ({ darkMode, setDarkMode }) => {
       <Router>
         <nav className="flex justify-between items-center p-5">
           <h1 className="text-lg">
-            <NavLink reloadDocument to="/portfolio-vite/">
+            <NavLink reloadDocument to="/Portfolio-Vite/">
               Home
             </NavLink>
           </h1>
@@ -17,7 +17,7 @@ const Header = ({ darkMode, setDarkMode }) => {
               <li>
                 <NavLink
                   reloadDocument
-                  to="/portfolio-vite/experience/"
+                  to="/Portfolio-Vite/experience/"
                   className=" [&.active]:bg-gray-300 block py-2 px-3  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Experience
@@ -26,7 +26,7 @@ const Header = ({ darkMode, setDarkMode }) => {
               <li>
                 <NavLink
                   reloadDocument
-                  to="/portfolio-vite/assignments/"
+                  to="/Portfolio-Vite/assignments/"
                   className=" [&.active]:bg-gray-300 block py-2 px-3  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Projects
@@ -35,7 +35,7 @@ const Header = ({ darkMode, setDarkMode }) => {
               <li>
                 <NavLink
                   reloadDocument
-                  to="/portfolio-vite/contact/"
+                  to="/Portfolio-Vite/contact/"
                   className=" [&.active]:bg-gray-300 block py-2 px-3  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Contact
@@ -44,7 +44,7 @@ const Header = ({ darkMode, setDarkMode }) => {
               <li>
                 <NavLink
                   reloadDocument
-                  to="/portfolio-vite/dummydata/"
+                  to="/Portfolio-Vite/dummydata/"
                   className=" [&.active]:bg-gray-300 block py-2 px-3  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Dummy Data
