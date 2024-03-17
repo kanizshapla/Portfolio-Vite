@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Contact from "../components/Contact Component/Contact";
 import DummyData from "../components/DummyData";
 import Experience from "../components/Experience Components/Experience";
+import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero Component/Hero";
 import Assignments from "../components/Portfolio Component/Portfolio";
 import Error from "./Error";
@@ -19,6 +20,7 @@ const Homepage = ({ darkMode }) => {
           <Route path="/Portfolio-Vite/Dummydata" element={<DummyData />} />
           <Route path="*" element={<Error />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
