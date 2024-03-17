@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   base: "/Portfolio-Vite/",
   plugins: [react()],
-  // build: {
-  //   OutDir: "build",
-  // },
+  build: {
+    OutDir: "build",
+  },
 });
