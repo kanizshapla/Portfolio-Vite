@@ -4,7 +4,7 @@ import { NavLink, BrowserRouter as Router } from "react-router-dom";
 
 const Header = ({ darkMode, setDarkMode }) => {
   return (
-    <header className="bg-white dark:bg-gray-900 dark:text-white">
+    <header className="bg-white dark:bg-gray-900 dark:text-white mr-20 ml-20">
       <Router>
         <nav className="flex justify-between items-center p-5">
           <h1 className="text-lg">
@@ -33,12 +33,20 @@ const Header = ({ darkMode, setDarkMode }) => {
                 </NavLink>
               </li>
               <li>
-                <NavLink reloadDocument to="/portfolio-vite/contact/">
+                <NavLink
+                  reloadDocument
+                  to="/portfolio-vite/contact/"
+                  className=" [&.active]:bg-gray-300 block py-2 px-3  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >
                   Contact
                 </NavLink>
               </li>
               <li>
-                <NavLink reloadDocument to="/portfolio-vite/dummydata/">
+                <NavLink
+                  reloadDocument
+                  to="/portfolio-vite/dummydata/"
+                  className=" [&.active]:bg-gray-300 block py-2 px-3  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >
                   Dummy Data
                 </NavLink>
               </li>
