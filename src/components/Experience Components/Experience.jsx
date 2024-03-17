@@ -1,6 +1,6 @@
 import Section from "../Common/Section";
-import aurora from "./assests/Aurora-Consulting.jpg";
-import odyssey from "./assests/odyssey.jpg";
+import aurora from "./assets/Aurora-Consulting.jpg";
+import odyssey from "./assets/odyssey.jpg";
 
 function Experience() {
   const experiences = [

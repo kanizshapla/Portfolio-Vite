@@ -12,14 +12,11 @@ const Homepage = ({ darkMode }) => {
     <Router>
       <div className={darkMode ? "dark" : ""}>
         <Routes>
-          <Route path="/Portfolio-Vite/experience/" element={<Experience />} />
+          <Route path="/Portfolio-Vite/experience" element={<Experience />} />
           <Route path="/Portfolio-Vite/" element={<Hero />} />
-          <Route
-            path="/Portfolio-Vite/assignments/"
-            element={<Assignments />}
-          />
-          <Route path="/Portfolio-Vite/contact/" element={<Contact />} />
-          <Route path="/Portfolio-Vite/dummydata/" element={<DummyData />} />
+          <Route path="/Portfolio-Vite/assignments" element={<Assignments />} />
+          <Route path="/Portfolio-Vite/contact" element={<Contact />} />
+          <Route path="/Portfolio-Vite/dummydata" element={<DummyData />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </div>

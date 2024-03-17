@@ -1,9 +1,9 @@
 import React from "react";
 import { FaExternalLinkSquareAlt, FaGithub } from "react-icons/fa";
 import Section from "../Common/Section";
-import cine from "./assests/cine.jpg";
-import tindog from "./assests/dog-img.jpg";
-import newsletter from "./assests/newsletter.jpg";
+import cine from "./assets/cine.jpg";
+import tindog from "./assets/dog-img.jpg";
+import newsletter from "./assets/newsletter.jpg";
 
 const Assignments = () => {
   const projects = [
