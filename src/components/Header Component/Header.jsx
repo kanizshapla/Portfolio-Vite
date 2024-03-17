@@ -4,7 +4,7 @@ import { NavLink, BrowserRouter as Router } from "react-router-dom";
 
 const Header = ({ darkMode, setDarkMode }) => {
   return (
-    <header className="bg-white dark:bg-gray-900 dark:text-white mr-20 ml-20">
+    <header className="bg-white dark:bg-gray-900 dark:text-white">
       <Router>
         <nav className="flex justify-between items-center p-5">
           <h1 className="text-lg">
