@@ -28,9 +28,8 @@ const Homepage = ({ darkMode }) => {
   );
 };
 
-// PropTypes validation
 Homepage.propTypes = {
-  darkMode: PropTypes.bool.isRequired, // Ensure darkMode is a required boolean prop
+  darkMode: PropTypes.bool.isRequired,
 };
 
 export default Homepage;
