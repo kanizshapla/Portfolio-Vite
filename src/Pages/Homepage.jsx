@@ -12,14 +12,14 @@ import Error from "./Error";
 
 const Homepage = ({ darkMode }) => {
   return (
-    <Router>
+    <Router basename="/Portfolio-Vite/">
       <div className={darkMode ? "dark" : ""}>
         <Routes>
-          <Route path="/Portfolio-Vite/Experience" element={<Experience />} />
-          <Route path="/Portfolio-Vite/" element={<Hero />} />
-          <Route path="/Portfolio-Vite/Assignments" element={<Assignments />} />
-          <Route path="/Portfolio-Vite/Contact" element={<Contact />} />
-          <Route path="/Portfolio-Vite/Dummydata" element={<DummyData />} />
+          <Route path="" index element={<Hero />} />
+          <Route path="Experience" element={<Experience />} />
+          <Route path="Assignments" element={<Assignments />} />
+          <Route path="Contact" element={<Contact />} />
+          <Route path="Dummydata" element={<DummyData />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

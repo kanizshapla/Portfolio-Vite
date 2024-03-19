@@ -23,7 +23,7 @@ const UseApiFetch = (url) => {
 
     fetchData();
 
-    return () => {}; // Cleanup function if needed
+    return () => {};
   }, [url]);
 
   return { data, loading, error };
