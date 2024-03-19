@@ -1,5 +1,9 @@
 import React from "react";
 import { FaArrowDown, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import Contact from "../Contact Component/Contact";
+import DummyData from "../DummyData";
+import Experience from "../Experience Components/Experience";
+import Assignments from "../Portfolio Component/Portfolio";
 import Quotes from "../Quote/Quote";
 import avatar from "./assets/avater.jpg";
 const Hero = () => {
@@ -72,6 +76,10 @@ const Hero = () => {
         <FaArrowDown className="text-gray-400 text-2xl animate-bounce" />
       </div>
       <Quotes />
+      <Assignments />
+      <Experience />
+      <DummyData />
+      <Contact />
     </section>
   );
 };
