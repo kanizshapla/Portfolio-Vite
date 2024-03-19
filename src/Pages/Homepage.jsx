@@ -1,4 +1,6 @@
+import PropTypes from "prop-types"; // Import PropTypes
 import React from "react";
+
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Contact from "../components/Contact Component/Contact";
 import DummyData from "../components/DummyData";
@@ -24,6 +26,11 @@ const Homepage = ({ darkMode }) => {
       </div>
     </Router>
   );
+};
+
+// PropTypes validation
+Homepage.propTypes = {
+  darkMode: PropTypes.bool.isRequired, // Ensure darkMode is a required boolean prop
 };
 
 export default Homepage;
